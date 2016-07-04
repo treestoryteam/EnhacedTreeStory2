@@ -21,7 +21,7 @@ module TreeStories
     # config.i18n.default_locale = :de
 
     #Añadido
-
+    #Añadido mejora
     config.exceptions_app = self.routes
 
     # Settings in config/environments/* take precedence over those specified here.
