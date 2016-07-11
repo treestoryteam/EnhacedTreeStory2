@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
 
+
+  #############################
+  # Rutas para error_controller
+  #############################
+  match "/404", :to => "errors#not_found", :via => :all
+  match "/423", :to => "errors#permission_denied", :via => :all
+  match "/500", :to => "errors#internal_server_error", :via => :all
+  match "/503", :to => "errors#service_down", :via => :all
+
   resources :posts
   resources :comments, only: [:create, :destroy]
   devise_for :users

@@ -1,4 +1,6 @@
 Rails.application.configure do
+
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -10,6 +12,7 @@ Rails.application.configure do
   config.eager_load = false
 
   # Show full error reports and disable caching.
+  # cambiar esto a false para que deje de mostrar el error por pantalla
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
