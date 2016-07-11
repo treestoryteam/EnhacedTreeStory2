@@ -80,4 +80,9 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+
+  #   Ultima ruta para capturar todas
+    get '*path' => "cuatro_cero_cuatro#index"
+
 end

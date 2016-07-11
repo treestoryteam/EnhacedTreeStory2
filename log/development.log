@@ -9099,3 +9099,2721 @@ Started GET "/assets/ajax-loader-65b946e486395404f1f189d9c83f126b.gif" for 127.0
 
 
 Started GET "/assets/fontawesome-webfont-382e7577d2bc859a7421b3c489080eb7.woff2?v=4.3.0" for 127.0.0.1 at 2016-07-04 20:13:35 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 18:26:45 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#front as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (0.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (28.0ms)
+  Rendered home/front.html.erb within layouts/application (50.5ms)
+  Rendered shared/_navbar.html.erb (2.4ms)
+Completed 200 OK in 6049ms (Views: 5962.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-07-06 18:26:51 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (487.7ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 595ms (Views: 589.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-c99d2fb056e5a37fdcaae921a40bbf87.css?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:52 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+Processing by HomeController#front as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (1.0ms)
+  Rendered home/front.html.erb within layouts/application (3.2ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 18:26:53 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (294.4ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 407ms (Views: 376.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:02:49 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+Processing by HomeController#front as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (0.9ms)
+  Rendered home/front.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:04 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 89ms (Views: 87.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:12 +0200
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J189RAIj2XjhIJ1r9LiXzZjW2FIiX0cNBYgL8r1o128=", "user"=>{"email"=>"winslopu@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'winslopu@hotmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+Completed 401 Unauthorized in 95ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J189RAIj2XjhIJ1r9LiXzZjW2FIiX0cNBYgL8r1o128=", "user"=>{"email"=>"winslopu@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 141ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:17 +0200
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J189RAIj2XjhIJ1r9LiXzZjW2FIiX0cNBYgL8r1o128=", "user"=>{"email"=>"winslopu@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'winslopu@hotmail.com'  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 401 Unauthorized in 2ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J189RAIj2XjhIJ1r9LiXzZjW2FIiX0cNBYgL8r1o128=", "user"=>{"email"=>"winslopu@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 141ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:23 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:27 +0200
+
+
+Started POST "/users" for 127.0.0.1 at 2016-07-06 19:12:38 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J189RAIj2XjhIJ1r9LiXzZjW2FIiX0cNBYgL8r1o128=", "user"=>{"name"=>"David", "email"=>"winslopu@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE ("users"."id" IS NOT NULL) AND "users"."slug" = 'david' LIMIT 1[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'winslopu@hotmail.com' LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."confirmation_token" = '6bbf4f471725ea8f0f1cdd8c652c0ff0e09dfb322aa784dc95d0b286cfc93361'  ORDER BY "users"."id" ASC LIMIT 1[0m
+Binary data inserted for `string` type on column `confirmation_token`
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("confirmation_sent_at", "confirmation_token", "created_at", "email", "encrypted_password", "name", "slug", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["confirmation_sent_at", "2016-07-06 17:12:38.577113"], ["confirmation_token", "6bbf4f471725ea8f0f1cdd8c652c0ff0e09dfb322aa784dc95d0b286cfc93361"], ["created_at", "2016-07-06 17:12:38.374987"], ["email", "winslopu@hotmail.com"], ["encrypted_password", "$2a$10$PxYN8oQwKDHP2sgg6SLsEezNaqKi469kuS5pFY96Q1Sk7OmPcpS82"], ["name", "David"], ["slug", "david"], ["updated_at", "2016-07-06 17:12:38.374987"]]
+  Rendered devise/mailer/confirmation_instructions.html.erb (0.8ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 236.1ms
+
+Sent mail to winslopu@hotmail.com (51.4ms)
+Date: Wed, 06 Jul 2016 19:12:38 +0200
+From: admin@socifyapp.herokuapp.com
+Reply-To: admin@socifyapp.herokuapp.com
+To: winslopu@hotmail.com
+Message-ID: <577d3c06cf58f_c2f2afd75d349e0923ac@david-Lenovo-IdeaPad-Z500.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome winslopu@hotmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=xXM9H3NCz7xKMSxSs8_F">Confirm my account</a></p>
+
+  [1m[36m (200.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1067ms (ActiveRecord: 201.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+Processing by HomeController#front as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (1.0ms)
+  Rendered home/front.html.erb within layouts/application (2.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:39 +0200
+
+
+Started GET "/users/confirmation?confirmation_token=xXM9H3NCz7xKMSxSs8_F" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+Processing by Devise::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"xXM9H3NCz7xKMSxSs8_F"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."confirmation_token" = '6bbf4f471725ea8f0f1cdd8c652c0ff0e09dfb322aa784dc95d0b286cfc93361'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "confirmed_at" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["confirmed_at", "2016-07-06 17:12:42.104650"], ["updated_at", "2016-07-06 17:12:42.105741"]]
+  [1m[36m (162.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 172ms (ActiveRecord: 163.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:42 +0200
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-07-06 19:12:46 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J189RAIj2XjhIJ1r9LiXzZjW2FIiX0cNBYgL8r1o128=", "user"=>{"email"=>"winslopu@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'winslopu@hotmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Binary data inserted for `string` type on column `current_sign_in_ip`
+Binary data inserted for `string` type on column `last_sign_in_ip`
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["current_sign_in_at", "2016-07-06 17:12:46.878792"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_at", "2016-07-06 17:12:46.878792"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2016-07-06 17:12:46.879977"]]
+  [1m[36m (156.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 247ms (ActiveRecord: 157.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.2ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (15.0ms)
+  Rendered shared/_user_info.html.erb (18.1ms)
+  Rendered posts/_form.html.erb (25.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (1.0ms)
+  Rendered shared/_links.html.erb (2.1ms)
+  Rendered home/index.html.erb within layouts/application (59.8ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 322ms (Views: 158.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:12:47 +0200
+
+
+Started GET "/users/david" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"david"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."slug" = 'david'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_cover.html.erb (0.4ms)
+  Rendered shared/_avatar.html.erb (0.6ms)
+  Rendered shared/_user_info.html.erb (1.9ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1[0m
+  Rendered shared/_paginate.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (17.0ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+Completed 200 OK in 103ms (Views: 98.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:14 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:18:15 +0200
+
+
+Started GET "/assets/cover.png" for 127.0.0.1 at 2016-07-06 19:18:15 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.7ms)
+  Rendered shared/_user_info.html.erb (1.6ms)
+  Rendered posts/_form.html.erb (1.0ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (0.8ms)
+  Rendered shared/_links.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (7.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 82ms (Views: 80.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:18:35 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (1.0ms)
+  Rendered shared/_user_info.html.erb (2.1ms)
+  Rendered posts/_form.html.erb (1.0ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (0.6ms)
+  Rendered shared/_links.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (7.7ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 71ms (Views: 68.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:19:01 +0200
+
+
+Started GET "/users/david" for 127.0.0.1 at 2016-07-06 19:19:07 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"david"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."slug" = 'david'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_cover.html.erb (0.1ms)
+  Rendered shared/_avatar.html.erb (0.7ms)
+  Rendered shared/_user_info.html.erb (1.8ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1[0m
+  Rendered shared/_paginate.html.erb (1.0ms)
+  Rendered users/show.html.erb within layouts/application (6.2ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 78ms (Views: 75.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:08 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:19:10 +0200
+
+
+Started GET "/assets/cover.png" for 127.0.0.1 at 2016-07-06 19:19:10 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.2ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (1.5ms)
+  Rendered shared/_user_info.html.erb (3.0ms)
+  Rendered posts/_form.html.erb (2.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (2.1ms)
+  Rendered shared/_links.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (14.7ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 123ms (Views: 119.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:19:11 +0200
+
+
+Started GET "/users/david" for 127.0.0.1 at 2016-07-06 19:21:59 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"david"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."slug" = 'david'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_cover.html.erb (0.1ms)
+  Rendered shared/_avatar.html.erb (0.8ms)
+  Rendered shared/_user_info.html.erb (2.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1[0m
+  Rendered shared/_paginate.html.erb (1.3ms)
+  Rendered users/show.html.erb within layouts/application (8.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 97ms (Views: 92.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/assets/cover.png" for 127.0.0.1 at 2016-07-06 19:22:00 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.7ms)
+  Rendered shared/_user_info.html.erb (1.6ms)
+  Rendered posts/_form.html.erb (1.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (0.8ms)
+  Rendered shared/_links.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (8.0ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 92ms (Views: 88.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:04 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.7ms)
+  Rendered shared/_user_info.html.erb (1.6ms)
+  Rendered posts/_form.html.erb (1.4ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (1.1ms)
+  Rendered shared/_links.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:22:41 +0200
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.5ms)
+  Rendered shared/_user_info.html.erb (1.1ms)
+  Rendered posts/_form.html.erb (0.8ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (0.7ms)
+  Rendered shared/_links.html.erb (1.2ms)
+  Rendered home/index.html.erb within layouts/application (6.4ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 63.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.4ms)
+  Rendered shared/_user_info.html.erb (1.1ms)
+  Rendered posts/_form.html.erb (0.7ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (0.7ms)
+  Rendered shared/_links.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (6.4ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 104ms (Views: 102.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:22:42 +0200
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.5ms)
+  Rendered shared/_user_info.html.erb (1.0ms)
+  Rendered posts/_form.html.erb (0.7ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (1.2ms)
+  Rendered shared/_links.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (7.4ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 71.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.5ms)
+  Rendered shared/_user_info.html.erb (1.2ms)
+  Rendered posts/_form.html.erb (0.9ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (0.8ms)
+  Rendered shared/_links.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (6.7ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.5ms)
+  Rendered shared/_user_info.html.erb (1.1ms)
+  Rendered posts/_form.html.erb (0.8ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (0.6ms)
+  Rendered shared/_links.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (6.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:43 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.5ms)
+  Rendered shared/_user_info.html.erb (1.1ms)
+  Rendered posts/_form.html.erb (0.6ms)
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (0.6ms)
+  Rendered shared/_links.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 62.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:44 +0200
+
+
+Started GET "/events/new" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+Processing by EventsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_avatar.html.erb (1.1ms)
+  Rendered shared/_user_info.html.erb (3.2ms)
+  Rendered events/_form.html.erb (8.4ms)
+  Rendered shared/_links.html.erb (1.0ms)
+  Rendered events/new.html.erb within layouts/application (22.7ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 136ms (Views: 114.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:22:48 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:22:50 +0200
+
+
+Started GET "/users/david" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"david"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."slug" = 'david'  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_cover.html.erb (0.1ms)
+  Rendered shared/_avatar.html.erb (0.6ms)
+  Rendered shared/_user_info.html.erb (1.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1[0m
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1
+  Rendered shared/_paginate.html.erb (0.7ms)
+  Rendered users/show.html.erb within layouts/application (5.7ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 70ms (Views: 65.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/assets/cover.png" for 127.0.0.1 at 2016-07-06 19:23:25 +0200
+
+
+Started GET "/users/david" for 127.0.0.1 at 2016-07-06 19:27:41 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"david"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."slug" = 'david'  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_cover.html.erb (0.1ms)
+  Rendered shared/_avatar.html.erb (0.7ms)
+  Rendered shared/_user_info.html.erb (1.8ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1[0m
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1
+  Rendered shared/_paginate.html.erb (1.1ms)
+  Rendered users/show.html.erb within layouts/application (7.4ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 99ms (Views: 95.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/assets/cover.png" for 127.0.0.1 at 2016-07-06 19:27:42 +0200
+
+
+Started GET "/users/david/friends" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+Processing by UsersController#friends as HTML
+  Parameters: {"id"=>"david"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."slug" = 'david'  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_avatar.html.erb (0.8ms)
+  Rendered shared/_user_info.html.erb (2.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" INNER JOIN "follows" ON "follows"."followable_id" = "users"."id" AND "follows"."followable_type" = 'User' WHERE "follows"."blocked" = 'f' AND "follows"."follower_id" = 1 AND "follows"."follower_type" = 'User' AND "follows"."followable_type" = 'User' LIMIT 10 OFFSET 0[0m
+  Rendered collection (0.0ms)
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  Rendered shared/_paginate.html.erb (0.4ms)
+  Rendered shared/_links.html.erb (1.1ms)
+  Rendered users/friends.html.erb within layouts/application (24.7ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 115ms (Views: 110.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:27:52 +0200
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  [1m[35mFollow Load (0.1ms)[0m  SELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (1.0ms)
+  Rendered shared/_user_info.html.erb (2.1ms)
+  Rendered posts/_form.html.erb (0.9ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_paginate.html.erb (0.7ms)
+  Rendered shared/_links.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (7.3ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:31:09 +0200
+
+
+Started POST "/posts" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w29aNj3iNF4BhYSgsQmar/yZujEeMaLmPv1dexBrCmA=", "post"=>{"content"=>""}, "commit"=>"Post"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 38ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Processing by HomeController#index as HTML
+  [1m[36mFollow Load (0.1ms)[0m  [1mSELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'[0m  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.7ms)
+  Rendered shared/_user_info.html.erb (1.3ms)
+  Rendered posts/_form.html.erb (1.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_paginate.html.erb (0.7ms)
+  Rendered shared/_links.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (6.6ms)
+  Rendered shared/_navbar.html.erb (0.3ms)
+Completed 200 OK in 74ms (Views: 72.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-06 19:31:12 +0200
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-07-06 19:31:16 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"w29aNj3iNF4BhYSgsQmar/yZujEeMaLmPv1dexBrCmA="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-06 19:31:16 +0200
+Processing by HomeController#front as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_paginate.html.erb (0.6ms)
+  Rendered home/front.html.erb within layouts/application (2.2ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 63ms (Views: 62.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-06 19:31:17 +0200
+
+
+Started GET "/users/david/friends" for 127.0.0.1 at 2016-07-11 19:37:32 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#friends as HTML
+  Parameters: {"id"=>"david"}
+Completed 401 Unauthorized in 27ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (89.7ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+Completed 200 OK in 499ms (Views: 477.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:33 +0200
+
+
+Started GET "/users/sign_in%20dda" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in dda"}
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 99ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:37:37 +0200
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-07-11 19:37:41 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/xLQS1soQYWMciq2/ychoe52fy3V8vJXQSGW/p3W2Bo=", "user"=>{"email"=>"winslopu@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'winslopu@hotmail.com'  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["current_sign_in_at", "2016-07-11 17:37:41.391872"], ["sign_in_count", 2], ["updated_at", "2016-07-11 17:37:41.393443"]]
+  [1m[36m (99.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/sign_in%20dda
+Completed 302 Found in 305ms (ActiveRecord: 100.0ms)
+
+
+Started GET "/users/sign_in%20dda" for 127.0.0.1 at 2016-07-11 19:37:41 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in dda"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."slug" = 'sign_in dda'  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound - ActiveRecord::RecordNotFound:
+  friendly_id (5.0.5) lib/friendly_id/finder_methods.rb:23:in `find'
+  activerecord (4.1.6) lib/active_record/querying.rb:3:in `find'
+  app/controllers/users_controller.rb:48:in `set_user'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:424:in `block in make_lambda'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:160:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:160:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:149:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:149:in `block in halting_and_conditional'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.6) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.6) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.6) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.6) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.6) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.6) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/david/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/david/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/david/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/fb9e270d5951945c/variables" for 127.0.0.1 at 2016-07-11 19:37:41 +0200
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2016-07-11 19:38:01 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/xLQS1soQYWMciq2/ychoe52fy3V8vJXQSGW/p3W2Bo=", "user"=>{"email"=>"winslopu2@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-11 19:38:01 +0200
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  [1m[35mFollow Load (0.2ms)[0m  SELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (15.1ms)
+  Rendered shared/_user_info.html.erb (18.2ms)
+  Rendered posts/_form.html.erb (24.4ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_no_resource.html.erb (0.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_paginate.html.erb (13.9ms)
+  Rendered shared/_links.html.erb (1.6ms)
+  Rendered home/index.html.erb within layouts/application (72.7ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 339ms (Views: 144.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-11 19:38:02 +0200
+
+
+Started GET "/3242" for 127.0.0.1 at 2016-07-11 19:38:06 +0200
+
+ActionController::RoutingError (No route matches [GET] "/3242"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/david/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/david/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/david/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/david/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/david/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.3ms)
+  Rendered /home/david/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/david/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  [1m[35mFollow Load (0.1ms)[0m  SELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (0.7ms)
+  Rendered shared/_user_info.html.erb (2.1ms)
+  Rendered posts/_form.html.erb (0.9ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_paginate.html.erb (1.6ms)
+  Rendered shared/_links.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (9.4ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 82.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-11 19:38:11 +0200
+
+
+Started GET "/membership_cards/exchange/da" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CuatroCeroCuatroController#index as HTML
+  Parameters: {"path"=>"membership_cards/exchange/da"}
+  Rendered errors/not_found.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered shared/_navbar.html.erb (24.7ms)
+Completed 200 OK in 156ms (Views: 144.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/assets/404notfound.jpg" for 127.0.0.1 at 2016-07-11 19:50:06 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  [1m[35mFollow Load (0.3ms)[0m  SELECT "follows".* FROM "follows"  WHERE "follows"."follower_id" = ? AND "follows"."follower_type" = ? AND "follows"."blocked" = 'f'  [["follower_id", 1], ["follower_type", "User"]]
+  Rendered shared/_avatar.html.erb (1.9ms)
+  Rendered shared/_user_info.html.erb (3.9ms)
+  Rendered posts/_form.html.erb (14.7ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)[0m
+  Rendered shared/_no_resource.html.erb (0.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_id" IN (1)
+  Rendered shared/_paginate.html.erb (2.0ms)
+  Rendered shared/_links.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (26.4ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 154ms (Views: 106.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-11 19:50:13 +0200
+
+
+Started GET "/237482934" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+Processing by CuatroCeroCuatroController#index as HTML
+  Parameters: {"path"=>"237482934"}
+  Rendered errors/not_found.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_navbar.html.erb (1.8ms)
+Completed 200 OK in 103ms (Views: 102.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:16 +0200
+
+
+Started GET "/users/david" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"david"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."slug" = 'david'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_cover.html.erb (1.0ms)
+  Rendered shared/_avatar.html.erb (1.2ms)
+  Rendered shared/_user_info.html.erb (4.2ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1[0m
+  Rendered shared/_paginate.html.erb (1.1ms)
+  Rendered users/show.html.erb within layouts/application (19.5ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 131ms (Views: 126.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/assets/cover.png" for 127.0.0.1 at 2016-07-11 19:50:56 +0200
+
+
+Started GET "/users/david" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"david"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."slug" = 'david'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_cover.html.erb (0.1ms)
+  Rendered shared/_avatar.html.erb (0.8ms)
+  Rendered shared/_user_info.html.erb (2.1ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"  WHERE "activities"."owner_type" = 'User' AND "activities"."owner_id" = 1[0m
+  Rendered shared/_paginate.html.erb (1.2ms)
+  Rendered users/show.html.erb within layouts/application (7.9ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 99ms (Views: 94.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/assets/cover.png" for 127.0.0.1 at 2016-07-11 19:50:59 +0200
+
+
+Started GET "/users/david/friends" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+Processing by UsersController#friends as HTML
+  Parameters: {"id"=>"david"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."slug" = 'david'  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered shared/_avatar.html.erb (0.8ms)
+  Rendered shared/_user_info.html.erb (2.0ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" INNER JOIN "follows" ON "follows"."followable_id" = "users"."id" AND "follows"."followable_type" = 'User' WHERE "follows"."blocked" = 'f' AND "follows"."follower_id" = 1 AND "follows"."follower_type" = 'User' AND "follows"."followable_type" = 'User' LIMIT 10 OFFSET 0
+  Rendered collection (0.0ms)
+  Rendered shared/_no_resource.html.erb (0.1ms)
+  Rendered shared/_paginate.html.erb (0.4ms)
+  Rendered shared/_links.html.erb (1.0ms)
+  Rendered users/friends.html.erb within layouts/application (36.0ms)
+  Rendered shared/_navbar.html.erb (0.4ms)
+Completed 200 OK in 128ms (Views: 122.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started GET "/assets/avatar-dd8c22d9c8781860fa71332a5b88fd3a.jpg" for 127.0.0.1 at 2016-07-11 19:51:01 +0200
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"IbyZReb48TyuAjX09u1ZPpPFz9REVpkjGBMpBSWx4ro="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 300ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+Processing by HomeController#front as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "activities"
+  Rendered shared/_no_resource.html.erb (0.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "activities"[0m
+  Rendered shared/_paginate.html.erb (0.7ms)
+  Rendered home/front.html.erb within layouts/application (3.6ms)
+  Rendered shared/_navbar.html.erb (0.5ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:04 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.4ms)
+  Rendered shared/_navbar.html.erb (0.6ms)
+Completed 200 OK in 115ms (Views: 112.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-937ba0a734888302428e96ff45d7e443.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/jquery_ujs-0ba77a7aa3cdb6b7267dab62f42cf137.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/bootstrap-5270bde716fc03f209285ad531a8653a.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/bindWithDelay-dfee886cbc04b27a0204e557fde973af.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/jquery.datetimepicker-6336a0d303c59abe501b87dd107fb5eb.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/comments-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/follows-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/events-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/home-9009a177b7c3e75a5f6325c365f93f11.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/likes-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/posts-bd6311d6b1cc1913498ae71fe70d5d51.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/users-04386284cf5f10f45e70ae0eb6381b71.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
+
+
+Started GET "/assets/application-7e088ee795325dd1944bc59618a54607.js?body=1" for 127.0.0.1 at 2016-07-11 19:51:06 +0200
