@@ -21,4 +21,6 @@
 
 en:
   hello: "Hello world"
-
+  sales:
+      index:
+        title: "Listing of Sales"
