@@ -27,6 +27,6 @@ es:
   nav2:
       miCuenta: "Mi cuenta"
       about:    "Acerca de"
-      SignIn:   "Iniciar Sesión"
-      SignOUt:  "Salir de la Sesión"
+      SignIn:   "Iniciar sesión"
+      SignOUt:  "Cerrar sesión"
       SignUp:   "Registrarse"
