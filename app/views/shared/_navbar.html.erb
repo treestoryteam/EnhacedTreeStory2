@@ -158,19 +158,19 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= t('nav1.miCuenta') %> <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="linksSanos"><%= t('nav2.miCuenta') %> <span class="caret"></span></span></a>
           <ul class="dropdown-menu" role="menu">
             <% if user_signed_in? %>
                 <li><%= link_to(current_user.name, user_path(current_user)) %></li>
-                <li><%= link_to('Sign out', destroy_user_session_path, method: :delete) %></li>
+                <li><%= link_to(t('nav2.SignOUt'), destroy_user_session_path, method: :delete) %></li>
             <% else %>
-                <li><%= link_to 'About', about_path %></li>
-                <li><%= link_to 'Sign up', new_user_registration_path %></li>
-                <li><%= link_to 'Sign in', user_session_path %></li>
+                <li><%= link_to t('nav2.about'), about_path %></li>
+                <li><%= link_to t('nav2.SignUp'), new_user_registration_path %></li>
+                <li><%= link_to t('nav2.SignIn'), user_session_path %></li>
             <% end %>
           </ul>
         </li>
-        <li><a href="#">My cart (0) items</a></li>
+        <li><a href="#"><span class="linksSanos"><%= t('nav1.MyCart') %></span></a></li>
       </ul>
     </div><!-- /.nav-collapse -->
   </nav>
