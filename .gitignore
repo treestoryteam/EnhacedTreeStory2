@@ -21,10 +21,14 @@
 /public/categories/thumb
 
 # Ignore all logfiles and tempfiles.
-/log/*
+/log/**
 !/log/.keep
 /tmp
-/tmp/cache/*
+/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af
+/log/development.log
+
+
+
 # Gemfile
 Gemfile.lock
 
